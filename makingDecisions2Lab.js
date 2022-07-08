@@ -190,3 +190,35 @@ switch (letterGrade) {
 */
 
 //Code Here
+for (let i = 1; i <= 100; i++) {
+  if (i % 3 === 0 && 5 === 0) {
+    console.log('Devmountain')
+      }if (i % 3 === 0) {
+        console.log('Dev')
+      } else if(i % 5 === 0) {
+        console.log('mountain')
+      } else {
+        console.log(i)
+      }
+    }
+
+
+// var devArr =[]
+
+// for (let i = 1; i <= 100; i++) {
+//   devArr.push(i)
+// }
+
+// let i = 0
+// while(i < 100) {
+//   if (devArr[i] % 3 === 0) {
+//     console.log('Dev')
+//   } else if(devArr[i] % 5 === 0) {
+//     console.log('mountain')
+//   } else if(devArr[i] % 3 === 0 && 5 === 0) {
+//     console.log('Devmountain')
+//   } else {
+//     console.log(devArr[i])
+//   }
+// }
+
